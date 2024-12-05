@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Business Casual - Start Bootstrap Theme</title>
+        <title></title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -13,8 +13,19 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
-            .site-heading-lower {font-family:Verdana, Geneva, Tahoma, sans-serif;}
+            .site-heading-lower {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+            .bg-faded {background-color: rgb(173, 168, 199) !important;}
+
+            .navbar-dark {background-color: grey !important;}
+
+            .clearfix {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+.footer {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
             
+            .section-heading {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-bottom: 1em;}
                     </style>
     </head>
     <body>
@@ -27,7 +38,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
@@ -39,13 +50,29 @@
                 </div>
             </div>
         </nav>
-       
+       <section class="page-section clearfix">
+        <div class="container bg-faded rounded p-5">
+        <h1 class="section-heading"> My works
+        </h1>
+        <h2 class="section-heading-lower">"Dracula" by Bram Stoker book cover</h2>
+        <p>I designed an original book cover for "Dracula" using adobe softwares.</p>
+        <img src="Dracula.png" alt="Book cover design for 'Dracula' by Bram Stoker" style="width:50em;padding-bottom:5em;">
+        <h2 class="section-heading-lower">Paper Airplane Making Instruction Guide</h2>
+        <p>I made an easy to follow guide on how to make the world record breaking paper airplane "Suzanne" by John Collins for a class.</p>
+        <img src="Pamiga1.png" alt="Cover of Paper Airplane Making Instruction Guide" style="width:30em;padding-bottom:5em">
+        <img src="Pamiga2.png" alt="Instructions page" style="width:30em;padding-bottom:5em">
+        <h2 class="section-heading-lower">Accessible Grocery Box Design</h2>
+        <p>Me and my group members came up with a accessible grocery box design for a class. I made the prototype.</p>
+        <img src="Prototype.png" alt="Images of prototype from project" style="width:50em">
+        </div>
+       </section>
         <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright &copy; Taha Hayat 2024</p></div>
+            <div class="container"><p class="m-0 small">Copyright &copy; Taha Hayat <x-year></x-year></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/customelements.js"></script>
     </body>
 </html>

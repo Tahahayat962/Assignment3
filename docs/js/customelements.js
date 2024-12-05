@@ -6,5 +6,7 @@ class Year extends HTMLElement{
 
 customElements.define("x-year", Year);
 
-if (window.location.href === "https://fictional-space-doodle-pjpjggprgw5w36gvx-5500.app.github.dev/docs/index.html") 
-alert("Welcome to my portfolio!");
+
+if (window.location.href === "https://tahahayat962.github.io/Assignment3/") 
+    alert("Welcome to my portfolio!");
+    
